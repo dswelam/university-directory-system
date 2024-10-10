@@ -1,0 +1,1 @@
+CSC116,Intro to Programming - Java,001,4,instructorId,10,MW,1330,1445
