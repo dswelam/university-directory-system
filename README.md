@@ -1,17 +1,44 @@
 # Student and Faculty Directory Management System
 ---
-This Java application manages directory information for students and faculty members, including hashed passwords for secure authentication and an admin key for privileged operations.
+
+This Java application is designed to securely manage directory information for both students and faculty members. The system includes features for securely handling passwords, differentiating roles, and providing administrative privileges through an admin key for critical operations.
 
 ## Features
 
-- **Student and Faculty Information Management**: 
-  - Stores directory information for students and faculty, such as names, email addresses, and roles.
-  - The system differentiates between students and faculty based on roles and offers different permissions.
+### 1. Student and Faculty Information Management:
+- Stores and manages directory information such as names, email addresses, and user roles.
+- Differentiates between students and faculty members, providing appropriate access and permissions based on their roles.
 
-- **Secure Password Handling**:
-  - Passwords are securely hashed using a cryptographic hashing algorithm (SHA-256 ).
-  - Users authenticate with their user ID and password, ensuring secure login to their respective accounts.
+### 2. Secure Password Handling:
+- Passwords are securely hashed using the **SHA-256 cryptographic hashing algorithm**.
+- Users authenticate by providing their user ID and password, ensuring only authorized access to their accounts.
 
-- **Admin Key**:
-  - The system includes an admin key, which provides elevated permissions for administrative tasks, such as managing user data, updating the directory, or performing critical operations.
-  
+### 3. Admin Key:
+- The system incorporates an admin key, granting elevated permissions for administrators.
+- The admin can perform critical operations such as managing user data, updating the directory, or maintaining system integrity.
+
+## Installation
+To run this project, you will need the following:
+1. **Java Development Kit (JDK)** installed on your machine.
+2. A code editor such as **Eclipse** or **IntelliJ IDEA**.
+3. The project source files, which can be cloned or downloaded from this repository.
+
+### Steps to run:
+1. Clone the repository to your local machine:
+   ```
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```
+2. Open the project in your preferred Java IDE.
+3. Compile and run the application.
+
+## Usage
+Once the application is running, users will be able to:
+1. **Login** with their user ID and hashed password.
+2. **Access directory information** based on their roles (students or faculty).
+3. **Admins** can use the admin key to perform elevated operations, such as updating user details, resetting passwords, or managing the directory.
+
+## Requirements
+- **Java 8 or later**
+- **IDE** for running the Java application
+- **Libraries**: Built-in Java libraries for cryptographic hashing and basic I/O operations.
+
